@@ -1,0 +1,27 @@
+.logout-container {
+  background: #2563eb;
+  padding: 10px 20px;
+  text-align: right;
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 10px;
+}
+
+.logout-container .logout-btn,
+.logout-container .nav-btn {
+  color: #2563eb;
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 6px 16px;
+  margin-left: 10px;
+  transition: background 0.25s, color 0.25s;
+  font-size: 1rem;
+}
+
+.logout-container .logout-btn:hover,
+.logout-container .nav-btn:hover {
+  background: #e0e7ff;
+  color: #1e40af;
+}

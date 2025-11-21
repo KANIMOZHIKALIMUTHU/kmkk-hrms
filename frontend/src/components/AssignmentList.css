@@ -1,0 +1,49 @@
+.assignment-list-container {
+  padding: 24px;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 32px;
+  box-shadow: 0 2px 8px rgba(70,70,70,0.07);
+}
+
+.assignment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+.assignment-table th, .assignment-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #ececec;
+  text-align: left;
+}
+
+.assignment-table thead {
+  background: #e0f2fe;
+  color: #0284c7;
+}
+
+.assignment-actions button {
+  margin-right: 7px;
+  background: #f59e42;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.assignment-actions button:hover {
+  background: #ea580c;
+}
+
+@media (max-width: 600px) {
+  .assignment-list-container, .assignment-table {
+    font-size: 0.94em;
+    padding: 10px;
+  }
+  .assignment-table th, .assignment-table td {
+    padding: 8px 5px;
+  }
+}

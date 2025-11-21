@@ -1,0 +1,36 @@
+.team-list-container {
+  padding: 22px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+  margin-top: 28px;
+}
+
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+}
+
+.team-table th, .team-table td {
+  padding: 11px;
+  border-bottom: 1px solid #ececec;
+}
+
+.team-table thead {
+  background-color: #faf3dd;
+}
+
+.team-actions button {
+  margin-right: 7px;
+  background-color: #34d399;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.team-actions button:hover {
+  background-color: #059669;
+}
