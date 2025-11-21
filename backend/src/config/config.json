@@ -14,7 +14,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "mysql://root:TLruVVzSDoqoEVBLbsdvSzcQwcplwahp@metro.proxy.rlwy.net:14271/railway",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "mysql"
   }
 }
