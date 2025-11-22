@@ -1,4 +1,6 @@
 require('dotenv').config();
+console.log('DATABASE_URL:', process.env.DATABASE_URL);
+
 const express = require('express');
 const { sequelize, Organisation, User, Employee, Team, EmployeeTeam, Log } = require('./models');
 const authRoutes = require('./routes/auth');
